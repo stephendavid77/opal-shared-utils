@@ -1,0 +1,28 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opal_shared_utils"
+version = "0.1.0"
+authors = [
+  { name="OpalSuite Team", email="contact@opalsuite.com" },
+]
+description = "Shared utilities (config, secrets) for OpalSuite"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "python-dotenv",
+    "keyring",
+    "google-cloud-secret-manager",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/opalsuite/opal-shared-utils"
+"Bug Tracker" = "https://github.com/opalsuite/opal-shared-utils/issues"
