@@ -2,7 +2,7 @@ import time
 from functools import wraps
 from typing import Any, Callable
 
-from shared.secrets_manager.utils.logger import logger
+from opal_shared_utils.secrets_manager.utils.logger import logger
 
 
 def retry(

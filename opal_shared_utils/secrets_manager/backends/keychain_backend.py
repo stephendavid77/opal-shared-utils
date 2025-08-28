@@ -2,7 +2,7 @@ from typing import Optional
 
 import keyring
 
-from shared.secrets_manager.utils.logger import logger
+from opal_shared_utils.secrets_manager.utils.logger import logger
 
 
 class KeychainBackend:

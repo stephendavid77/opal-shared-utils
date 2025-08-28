@@ -3,7 +3,7 @@ from typing import Optional
 
 from dotenv import load_dotenv
 
-from shared.secrets_manager.utils.logger import logger
+from opal_shared_utils.secrets_manager.utils.logger import logger
 
 
 class EnvBackend:

@@ -2,11 +2,11 @@ import json
 import os  # Import os
 from typing import Dict, List, Optional
 
-from shared.secrets_manager.backends.cloud_backend import CloudBackend
-from shared.secrets_manager.backends.env_backend import EnvBackend
-from shared.secrets_manager.backends.keychain_backend import KeychainBackend
-from shared.secrets_manager.utils.cache import cached_secret
-from shared.secrets_manager.utils.logger import logger
+from opal_shared_utils.secrets_manager.backends.cloud_backend import CloudBackend
+from opal_shared_utils.secrets_manager.backends.env_backend import EnvBackend
+from opal_shared_utils.secrets_manager.backends.keychain_backend import KeychainBackend
+from opal_shared_utils.secrets_manager.utils.cache import cached_secret
+from opal_shared_utils.secrets_manager.utils.logger import logger
 
 
 class SecretManager:
