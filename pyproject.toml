@@ -22,7 +22,6 @@ dependencies = [
     "keyring",
     "google-cloud-secret-manager",
 ]
-packages = ["opal_shared_utils"] # Explicitly define packages
 
 [project.urls]
 "Homepage" = "https://github.com/opalsuite/opal-shared-utils"
